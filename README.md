@@ -6,7 +6,7 @@ I personally use it for my own spare time app, **[App Manager](https://play.goog
 
 Screenshot from the sample:
 
-![image](https://user-images.githubusercontent.com/screenshot.png)
+![image]([https://user-images.githubusercontent.com/screenshot.png](https://github.com/melihcanndemir/apk-parser/blob/master/screenshot.png))
 
 # Why use this library, as we can do it using the Android framework instead?
 
