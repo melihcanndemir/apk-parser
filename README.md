@@ -6,7 +6,7 @@ I personally use it for my own spare time app, **[App Manager](https://play.goog
 
 Screenshot from the sample:
 
-![image](https://user-images.githubusercontent.com/5357526/175833504-6cba993c-60b5-418c-8407-b6f1688a0348.png)
+![image](https://user-images.githubusercontent.com/screenshot.png)
 
 # Why use this library, as we can do it using the Android framework instead?
 
