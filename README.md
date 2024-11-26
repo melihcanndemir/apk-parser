@@ -1,7 +1,5 @@
 # APK-parser , revived
 
-Forked by @AndroidDeveloperLB
-
 Apk parser for java/Android/Kotlin, forked from **[here](https://github.com/hsiafan/apk-parser)** after fixing some issues in it and collecting some fixes from others.
 
 I personally use it for my own spare time app, **[App Manager](https://play.google.com/store/apps/details?id=com.lb.app_manager)**.
@@ -37,7 +35,9 @@ You can use what's on the original repository (meaning creating a new instance o
 - Could be nice to have better optimization in memory usage and speed, because somehow the framework seems to be more efficient on both. I think a better optimization is needed. Maybe some sort of way to tell 
 exactly what we want to get out of it, it would minimize such memory usage.
 
-# Improvements
+## Forked by @AndroidDeveloperLB
 
-- Added Turkish strings.xml
-- Improvements UI and Colors
+## Improvements:
+- Added Turkish localization (strings.xml), enabling better support for Turkish-speaking users.
+- Improved UI elements and color scheme, making the interface more user-friendly and visually appealing.
+- Updated layout for better user experience and responsiveness.
