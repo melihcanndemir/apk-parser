@@ -31,12 +31,12 @@ object BitmapHelper {
                 sampleSize = (width.toFloat() / reqWidth.toFloat()).roundToInt()
                 preferHeight = false
             }
-        // as much as possible, use google's way to downsample:
+        // as much as possible, use google's way to down sample:
         while (bitmapOptions.inSampleSize * 2 <= sampleSize)
             bitmapOptions.inSampleSize *= 2
-        // if google's way to downsample isn't enough, do some more :
+        // if google's way to down sample isn't enough, do some more :
         if (bitmapOptions.inSampleSize != sampleSize) {
-            // downsample by bitmapOptions.inSampleSize/originalSampleSize .
+            // down sample by bitmapOptions.inSampleSize/originalSampleSize .
             bitmapOptions.inTargetDensity = bitmapOptions.inSampleSize
             bitmapOptions.inDensity = sampleSize
         } else if (sampleSize == 1) {

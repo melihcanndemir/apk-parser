@@ -85,7 +85,7 @@ class ApacheZipFileFilter(private val zipFile: org.apache.commons.compress.archi
         currentEntry = null
         try {
             zipFile.close()
-        } catch (e: Exception) {
+        } catch (_: Exception) {
         }
     }
 

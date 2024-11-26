@@ -84,7 +84,7 @@ class ZipFileFilter(private val zipFile: ZipFile) : AbstractZipFilter(), Closeab
         currentEntry = null
         try {
             zipFile.close()
-        } catch (e: Exception) {
+        } catch (_: Exception) {
         }
     }
 

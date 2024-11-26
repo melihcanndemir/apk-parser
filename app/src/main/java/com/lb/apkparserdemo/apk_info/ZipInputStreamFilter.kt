@@ -50,7 +50,7 @@ class ZipInputStreamFilter(private val zipInputStream: ZipInputStream) : Abstrac
         currentEntryByteArray = null
         try {
             zipInputStream.close()
-        } catch (e: Exception) {
+        } catch (_: Exception) {
         }
     }
 }

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ApkParserDemo</string>
+    <string name="apps_analyzed">Şimdiye kadar analiz edilen uygulamalar:</string>
+    <string name="apks_analyzed">Şimdiye kadar analiz edilen APK dosyaları:</string>
+    <string
+        name="framework_errors_getting_apk_type">framework-errors APK türünü alıyor (standalone, base, split, …):</string>
+    <string name="parsing_errors">APK ayrıştırma hataları (APK hiç ayrıştırılamıyor):</string>
+    <string name="apk_type_detection_errors">APK türü algılama hataları (standalone, base, split, …):</string>
+    <string name="wrong_package_name_errors">Paket adı algılama hataları:</string>
+    <string name="icon_fetching_errors">Uygulama simgesi hataları:</string>
+    <string name="wrong_label_errors">Yanlış etiket hataları:</string>
+    <string name="wrong_version_code_errors">Yanlış sürüm kodu hataları:</string>
+    <string name="wrong_version_name_errors">Yanlış sürüm adı hataları:</string>
+    <string name="system_apps_errors">Sistem uygulaması hataları (yukarıdaki kitaplığın hepsinden):</string>
+    <string name="summary">Yüklü tüm uygulamaların tüm APK dosyalarının ayrıştırılması tamamlandı. </string>
+    <string name="all_are_system_errors">APK dosyalarını işlerken çeşitli hatalar bulundu, ancak bunların hepsi sistem uygulamasına ait</string>
+    <string name="not_all_are_system_errors">Bazı hatalar sistem uygulamasına ait değil</string>
+    <string name="intro">Bu örnek, kitaplığı kullanarak yüklü tüm uygulamaların tüm APK dosyalarını ayrıştırmaya çalışır ve bunları Android çerçevesinden beklenenlerle karşılaştırır.
+\nİşlem ve hatalar hakkında daha fazla bilgi için günlükleri kontrol edin.</string>
+    <string name="repository_website">Depo web sitesi</string>
+    <string name="all_my_repositories">Tüm depolarım</string>
+    <string name="all_my_apps">Tüm uygulamalarım</string>
+    <string name="more_info">Daha fazla bilgi</string>
+
+</resources>

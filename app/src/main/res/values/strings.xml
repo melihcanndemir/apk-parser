@@ -17,5 +17,9 @@
     <string name="not_all_are_system_errors">Some errors are not of system apps</string>
     <string name="intro">This sample tries to parse all the APK files of all installed apps using the library, and compares it with what\'s expected from the Android framework.
 \nCheck the logs for more information about the process and the errors.</string>
+    <string name="repository_website">Repository website</string>
+    <string name="all_my_repositories">All my repositories</string>
+    <string name="all_my_apps">All my apps</string>
+    <string name="more_info">More info</string>
 
 </resources>

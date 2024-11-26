@@ -51,7 +51,7 @@ class ApacheZipArchiveInputStreamFilter(private val zipArchiveInputStream: ZipAr
         currentEntryByteArray = null
         try {
             zipArchiveInputStream.close()
-        } catch (e: Exception) {
+        } catch (_: Exception) {
         }
     }
 }

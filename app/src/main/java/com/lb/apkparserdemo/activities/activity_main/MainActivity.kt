@@ -1,5 +1,6 @@
 package com.lb.apkparserdemo.activities.activity_main
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -12,6 +13,7 @@ import com.lb.apkparserdemo.databinding.ActivityMainBinding
 class MainActivity : BoundActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
     private lateinit var viewModel: MainActivityViewModel
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
@@ -93,5 +95,4 @@ class MainActivity : BoundActivity<ActivityMainBinding>(ActivityMainBinding::inf
             }
         })
     }
-
 }
