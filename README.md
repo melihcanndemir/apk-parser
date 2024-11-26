@@ -1,5 +1,7 @@
 # APK-parser , revived
 
+Forked by @AndroidDeveloperLB
+
 Apk parser for java/Android/Kotlin, forked from **[here](https://github.com/hsiafan/apk-parser)** after fixing some issues in it and collecting some fixes from others.
 
 I personally use it for my own spare time app, **[App Manager](https://play.google.com/store/apps/details?id=com.lb.app_manager)**.
