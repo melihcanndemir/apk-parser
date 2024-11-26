@@ -6,7 +6,7 @@ I personally use it for my own spare time app, **[App Manager](https://play.goog
 
 Screenshot from the sample:
 
-<img src="https://raw.githubusercontent.com/melihcanndemir/apk-parser/master/screenshot.png" alt="Alt Metin" width="500">
+<img src="https://raw.githubusercontent.com/melihcanndemir/apk-parser/master/screenshot.png" alt="Alt Metin" width="250">
 
 # Why use this library, as we can do it using the Android framework instead?
 
