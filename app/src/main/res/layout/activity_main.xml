@@ -10,12 +10,8 @@
         android:orientation="vertical" android:padding="8dp">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/intro"
-            android:textColor="@color/blue"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intro"
+            android:textSize="16sp" />
 
         <TableLayout
             android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
@@ -23,219 +19,125 @@
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/apps_analyzed"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/apps_analyzed" app:autoSizeMaxTextSize="20dp"
+                    app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/appsCountTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/appsCountTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/apks_analyzed"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/apks_analyzed" app:autoSizeMaxTextSize="20dp"
+                    app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/apksCountTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/apksCountTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/framework_errors_getting_apk_type"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/framework_errors_getting_apk_type"
+                    app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/frameworkErrorsGettingApkTypeTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/frameworkErrorsGettingApkTypeTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/parsing_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/parsing_errors" app:autoSizeMaxTextSize="20dp"
+                    app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/parsingErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/parsingErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/apk_type_detection_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/apk_type_detection_errors"
+                    app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/apkTypeDetectionErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/apkTypeDetectionErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/wrong_package_name_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/wrong_package_name_errors"
+                    app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/wrongPackageNameErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/wrongPackageNameErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/icon_fetching_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/icon_fetching_errors" app:autoSizeMaxTextSize="20dp"
+                    app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/iconFetchingErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/iconFetchingErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/wrong_label_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/wrong_label_errors" app:autoSizeMaxTextSize="20dp"
+                    app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/wrongLabelErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/wrongLabelErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/wrong_version_code_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/wrong_version_code_errors"
+                    app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/wrongVersionCodeErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/wrongVersionCodeErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/wrong_version_name_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/wrong_version_name_errors"
+                    app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/wrongVersionNameErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/wrongVersionNameErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
             <TableRow>
 
                 <TextView
-                    style="@style/stats_text"
-                    android:text="@string/system_apps_errors"
-                    android:textColor="@color/colorAccent"
-                    app:autoSizeMaxTextSize="20dp"
-                    app:autoSizeMinTextSize="12sp"
-                    app:autoSizeTextType="uniform" />
+                    style="@style/stats_text" android:text="@string/system_apps_errors" app:autoSizeMaxTextSize="20dp"
+                    app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform" />
 
                 <TextView
-                    android:id="@+id/systemAppsErrorsTextView"
-                    style="@style/stats_value"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
+                    android:id="@+id/systemAppsErrorsTextView" style="@style/stats_value" />
             </TableRow>
 
         </TableLayout>
 
         <TextView
-            android:id="@+id/summaryTextView"
-            style="@style/stats_text"
-            android:layout_width="match_parent"
-            android:layout_marginTop="8dp"
-            android:layout_weight="0"
-            android:text="@string/summary"
-            android:textColor="@color/blue"
-            android:textStyle="bold"
-            android:visibility="gone"
-            app:autoSizeMaxTextSize="20dp"
-            app:autoSizeMinTextSize="12sp"
-            app:autoSizeTextType="uniform"
-            tools:visibility="visible" />
+            android:id="@+id/summaryTextView" style="@style/stats_text" android:layout_width="match_parent"
+            android:layout_marginTop="8dp" android:layout_weight="0" android:text="@string/summary"
+            android:visibility="gone" app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp"
+            app:autoSizeTextType="uniform" tools:visibility="visible" />
 
         <TextView
-            android:id="@+id/summaryNoteTextView"
-            style="@style/stats_text"
-            android:layout_width="match_parent"
-            android:layout_weight="0"
-            android:text="@string/all_are_system_errors"
-            android:textColor="@color/red"
-            android:textStyle="bold"
-            android:visibility="gone"
-            app:autoSizeMaxTextSize="20dp"
-            app:autoSizeMinTextSize="12sp"
-            app:autoSizeTextType="uniform"
+            android:id="@+id/summaryNoteTextView" style="@style/stats_text" android:layout_width="match_parent"
+            android:layout_weight="0" android:text="@string/all_are_system_errors" android:visibility="gone"
+            app:autoSizeMaxTextSize="20dp" app:autoSizeMinTextSize="12sp" app:autoSizeTextType="uniform"
             tools:visibility="visible" />
 
     </LinearLayout>
