@@ -37,5 +37,5 @@ exactly what we want to get out of it, it would minimize such memory usage.
 
 # Improvements
 
-Added Turkish strings.xml
-Improvements UI and Colors
+- Added Turkish strings.xml
+- Improvements UI and Colors
